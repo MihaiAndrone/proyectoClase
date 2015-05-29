@@ -1,0 +1,393 @@
+
+
+/*  
+
+	version:	1.0
+	author:		Mihai Androne
+	date:		18052015
+*/	
+
+
+/* ESTILOS GENERALES PARA TODAS LAS PAGINAS */
+
+
+
+
+.logos_footer {
+	width: 15px;
+	
+}
+
+
+/*Si el valor que el usuario escribe es valido, obtendra un color verde*/
+form input[type="text"]:required:valid{
+ border:4px solid #206B64;
+ /* otras propiedades */
+}
+
+/*caso contrario, el color sera rojo*/
+form input[type="text"]:focus:required:invalid{
+ border:4px solid #D09F38;
+ /* otras propiedades */
+}
+
+
+
+
+.formularios ul, li{
+	list-style-type:none;
+	
+}
+
+h1 {
+	
+	text-align: center;
+	color: green;
+	font-size: 50px;
+	font-family: arial;
+	margin-bottom: 20px;
+  
+  
+}
+p{
+	font-family: arial;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 20px;
+
+}
+.btn_volver{
+	background-color:#DDDDDD;
+}
+
+a:hover{
+	color: orange;
+}
+
+a{
+	text-decoration:none;
+}
+
+
+body {
+	
+	font-family:arial;
+	background: url('../img/background-3.jpg') ;
+	background-color: white;
+    background-size: auto 100%;
+    
+}
+
+
+
+
+
+table.tabla_azul, .tabla_azul tr {
+    border: 2px solid black;
+	border-collapse: collapse;
+	background-color: white;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 20px;
+	width: 900px;
+	
+}
+
+.tabla_azul td, .tabla_azul th{
+	border: 2px solid black;
+	border-collapse: collapse;
+	background-color: white;
+	text-align: center;
+	color: #0099FF;
+	font-size:20px;
+	font-family:arial;
+	
+}
+
+ol, ul{
+
+	list-style-type:disc;
+}
+
+ol h3, ul h3{
+	font-weight:bold;
+	margin-bottom:15px;
+}
+
+ol ol, ul ul{
+	margin-left:20px;
+	list-style-type:circle;
+}
+
+li{
+	margin-bottom:6px;
+}
+
+
+
+strong {
+	
+	font-weight: bold;
+}
+
+
+em{
+	
+	font-family: italica;
+	font-size: 40px;
+}
+
+
+
+
+/* ESTILOS REUTILIZABLES PARA TODAS LAS PAGINAS */
+
+
+
+/*NAV*/
+#menu_navegacion li{
+	display:floating;
+}
+
+#logo img{
+	width: 35px;
+	height: 35px;
+}
+
+#logo_header img{
+	width: 35px;
+	height: 35px;
+}
+
+
+
+table.tabla_azul, .tabla_azul tr {
+    border: 2px solid black;
+	border-collapse: collapse;
+	background-color: white;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 20px;
+	width: 900px;
+	
+}
+
+.tabla_azul td, .tabla_azul th{
+	border: 2px solid black;
+	border-collapse: collapse;
+	background-color: white;
+	text-align: center;
+	color: #0099FF;
+	font-size:20px;
+	font-family:arial;
+	
+}
+
+
+
+
+
+
+
+
+/* Regla con selector por ETIQUETA, ELEMENTO O TAG */
+
+
+/* Regla con selector por ID #nombre*/
+
+
+#bici1{
+	
+	margin-right: 30px;
+	width: 270px;
+	height: auto;
+	width: 350px;
+	height: 260px;
+
+}
+
+
+#bici2 {
+	
+	margin-right: 30px;
+	width: 270px;
+	height: auto;
+	width: 360px;
+	height: 259px;
+
+}
+
+
+#encabezado {
+	border: 1px dotted green;
+
+}
+
+/* Regla con selector por CLASS .nombre */
+.numero{ 
+
+	color: #0099FF;
+	font-size: 150px;
+	font-family: arial;
+}
+
+/* Regla con selector por ETIQUETA, ELEMENTO O TAG */
+mark{
+	background-color: yellow;
+
+}
+
+
+
+.verde {
+	color: green;
+}
+
+
+
+
+
+
+#container{
+	border-right: 1px solid grey;
+	border-left: 1px solid grey;
+	background-color:#FFF;
+	margin: 0 auto;
+	padding: 0 20px;
+	width: 900px;
+	clear:both;
+}
+
+.titulo{
+	background-color: blue;
+	border: solid black;
+	color: yellow;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#ficha{
+	float: left;
+	width: 600px;
+	min-height: 170px;
+	margin-bottom: 20px;	
+}
+
+#ficha p{
+	font-size: 35px;
+	line-height: 43px;
+}
+
+
+#ficha .destacado{
+	color: green;
+	font-weight: bold;	
+
+}
+
+
+.cartel{
+
+	float: left;
+	margin-right: 30px;
+	width: 270px;
+	height: auto;
+}
+
+#sinopsis{
+	float: left;
+	height: 200px;
+	overflow: scroll;
+	
+
+}
+
+
+
+
+
+
+.imagen_cartelera{
+	width: 225px; 
+	height: 330px;
+}
+
+
+
+#cartelera_cine{
+	
+	background-color: white;
+	
+}
+
+	
+ul.lista_peli{
+
+			PADDING-RIGHT: 0px; 
+			PADDING-LEFT: 0px; 
+			FLOAT: left; 
+			PADDING-BOTTOM: 0px; 
+			MARGIN: 15px 0px; 
+			WIDTH: 100%; 
+			PADDING-TOP: 0px; 
+			LIST-STYLE-TYPE: none 
+} 
+
+ul.lista_peli li {
+			PADDING-RIGHT: 2px; 
+			DISPLAY: inline; 
+			PADDING-LEFT: 2px; 
+			FLOAT: left; 
+			PADDING-BOTTOM: 2px; 
+			WIDTH: 30%; 
+			PADDING-TOP: 2px 
+}
+
+
+#cartelera_peliculas li h3{
+	color: #0076EC;
+	font-family: "dinengschriftstd", "Another Font", generic;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+#cartelera_peliculas li h3:hover{
+	color: orange;
+}
+
+#cartelera_peliculas ul{
+	list-style: none;
+}
+
+
+.cuadros{
+	width:300px;
+
+	
+}
+
+
+
+article{
+	border: 1px solid blue;
+	padding: 20px;
+	margin-bottom: 25 px;
+}
+
+
+article h2{
+	background-color: #39C0A0;
+	padding: 20px;
+	color: ##697951;
+	font-size: 25px;
+	margin-bottom: 25px;
+}
+
+
+select{
+
+	width:150px;
+
+	
+}
+
