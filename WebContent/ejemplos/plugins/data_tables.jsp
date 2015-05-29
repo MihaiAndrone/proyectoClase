@@ -29,7 +29,7 @@
 		
 		
 		
-		<table id="tabla_plugin" class="display" cellspacing="0" width="100%">
+		<table id="tabla_plugin" class="display">
         <thead>
             <tr>
                 <th>Name</th>
