@@ -21,6 +21,7 @@
 	
 	.nav li ul li ul {right: -140px; top: 0px;}
 	
+	.nav li ul li ul li a{padding:10px 2px;}
 	
 	</style>
 	
