@@ -1,4 +1,7 @@
 <jsp:include page="../../../plantillas/head.jsp"></jsp:include>
+<jsp:include page="../../../plantillas/nav.jsp"></jsp:include>
+
+
 
 <style> p[class="texto"]{color:purple;} </style>
 <style>div[class~="principal"]{font-size: 30px;}</style>

@@ -2,7 +2,6 @@
 
 
 
-
 <!-- Para poner comentarios -->
 
 
@@ -113,6 +112,9 @@
 		<li><a href="http://www.ipartek.formacion.com/campus/" target="_blank">Campus Ipartek</a></li>
 		<li><a href="http://www.caniuse.com" target="_blank">Can i use</a></li>
 		<li><a href="http://www.github.com" target="_blank">GitHub</a></li>
+		<li><a href="http://librosweb.es/libro/pro_git/" target="_blank">Pro GIT el libro</a></li>
+		<li><a href="http://librosweb.es/libro/css_avanzado/" target="_blank">Css Avanzado</a></li>
+		<li><a href="http://librosweb.es/libro/css/" target="_blank">Css Basico</a></li>
 	</ul>
 </aside>
 

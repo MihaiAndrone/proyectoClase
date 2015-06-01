@@ -23,6 +23,7 @@
 <div id="container">
   
 	<jsp:include page="../../plantillas/head.jsp"></jsp:include>
+	<jsp:include page="../../plantillas/nav.jsp"></jsp:include>
   
 <div id="data_table"  >
 		<h1>dataTables</h1>

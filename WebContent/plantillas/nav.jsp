@@ -1,16 +1,47 @@
-	<nav id="menu_navegacion">
+	<style type="text/css">
+	
+		* {padding: 0px; 
+			margin: 0px;}
+
+	#header{margin:auto; width:500px; font-family: arial, helvetica, sans-serif; }
+	
+	ul, ol{list-style: none;}
+	
+	.nav li a{background-color: #000; color:#fff; text-decoration: none; padding:10px 15px; display:block;}
+	
+	.nav li a:hover {background-color: #434343;}
+	
+	.nav > li{float:left; }
+	
+	.nav li ul {display: none; position:absolute; min-width: 140px;}
+	
+	.nav li:hover > ul{display: block;}
+	
+	.nav li ul li {position: relative;}
+	
+	.nav li ul li ul {right: -140px; top: 0px;}
+	
+	
+	</style>
+	
+	
+	
+	
+	
+	<nav id="header">
 	
 	<div id="logo">
 		<a href="index.jsp" title="Volver a la index">
 		<img src="img/bici.jpg" alt="bici icono de la App Web"/>
 		</a>
 	</div>
-	
-	<ul>
-		<li>
-			<h2>B&aacute;sicos</h2>
 		
-			<ul>
+
+	<ul class="nav">
+		<li><a href="">B&aacute;sicos</a>
+			
+		
+			<ul >
 				<li>
 				<a title="Ir a Parrafos Elementos basicos"
 				href="ejemplos/basicos/parrafos.jsp">Parrafos</a>
@@ -37,10 +68,10 @@
 				</li>
 			</ul>
 		</li>
-		<li>
-			<h2>Reales</h2>
+		<li><a href="">Reales</a>
+			
 		
-			<ul>
+			<ul >
 				<li>
 				<a title="Detalles Cartelera Cine"
 				href="ejemplos/reales/cartelera_detalle.jsp">Detalles Cartelera Cine</a>
@@ -55,10 +86,9 @@
 			</ul>
 		</li>
 		
-		<li>
-			<h2>Logins</h2>
-			
-			<ul>
+		<li><a href="">Logins</a>
+		
+			<ul >
 				<li><a title="Ejemplos Login"
 				href="ejemplos/formularios/login.jsp">Login
 				</a>
@@ -71,17 +101,81 @@
 			</ul>
 		</li>
 		
-		<li>
-			<h2>Plugins</h2>
+		<li><a href="">Plugins</a>
 			
-			<ul>
+			
+			<ul >
 				<li><a title="Ejemplos Plugins"
 				href="ejemplos/plugins/data_tables.jsp">dataTables</a>
 				</li>
 			</ul>
 		</li>
+		
+		<li><a href="">Etiquetas</a>
+			
+			
+			<ul >
+				<li><a title="Ejemplos Etiquetas"
+				href="ejemplos/etiquetas/etiquetas_html5.jsp">Etiquetas HTML5</a>
+				</li>
+				<li><a title="Ejemplos Datalist"
+				href="ejemplos/etiquetas/datalist.jsp">Datalist</a>
+				</li>
+				<li><a title="Ejemplos Progress Meter"
+				href="ejemplos/etiquetas/progress_meter.jsp">Progress y Meter</a>
+				</li>
+			</ul>
+		</li>
+		
+		
+			
+			
+			
+		<li><a href="">CSS</a>
+		
+				<ul >
+					<li><a href="">Selectores</a>
+						
+						<ul>
+							<li>
+								<a title="Atributos" href="ejemplos/css/selectores/atributos.jsp">Atributos</a>								
+							</li>
+							<li>
+								<a title="Hijos" href="ejemplos/css/selectores/hijos.jsp">Hijos</a>								
+							</li>
+							<li>
+								<a title="Adyacente" href="ejemplos/css/selectores/adyacente.jsp">Adyacente</a>								
+							</li>
+							<li>
+								<a title="Pseudo clases" href="ejemplos/css/selectores/pseudo_clases.jsp">Pseudo-Clases</a>								
+							</li>
+							<li>
+								<a title="Pseudo elementos" href="ejemplos/css/selectores/pseudo_elementos.jsp">Pseudo-Elementos</a>								
+							</li>
+							<li>
+								<a title="CSS3" href="ejemplos/css/selectores/css3.jsp">CSS3</a>								
+							</li>
+							
+						</ul>
+					</li>
+						
+					<li><a href="">Posicionamiento</a>
+						
+						<ul >
+							<li>
+								<a title="" href="ejemplos/css/posicionamiento/">por especificar</a>								
+							</li>
+						</ul>
+					</li>
+				</ul>
+		</li>
+		
+		
 	</ul>
+
 	
 	
-	</nav>
+</nav>
 	
+	
+<br>
