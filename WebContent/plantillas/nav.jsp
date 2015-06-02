@@ -1,15 +1,15 @@
-	<style type="text/css">
+	<style>
 	
 		* {padding: 0px; 
 			margin: 0px;}
 
-	#header{margin:auto; width:500px; font-family: arial, helvetica, sans-serif; }
+	#header{margin:auto; width:500px; font-family: arial, helvetica, sans-serif; font-size: 25px; }
 	
 	ul, ol{list-style: none;}
 	
-	.nav li a{background-color: #000; color:#fff; text-decoration: none; padding:10px 15px; display:block;}
+	.nav li a{background-color: #214955; color:#FF6D22; text-decoration: none; padding:10px 15px; display:block;}
 	
-	.nav li a:hover {background-color: #434343;}
+	.nav li a:hover {background-color: #218376;}
 	
 	.nav > li{float:left; }
 	
@@ -21,24 +21,35 @@
 	
 	.nav li ul li ul {right: -140px; top: 0px;}
 	
-	.nav li ul li ul li a{padding:10px 2px;}
+	.nav li ul li ul li a{padding-right:1px;}
+	
+	.nav {
+		
+		position:fixed; top:0px; left:55px; opacity:0.85;
+		box-shadow: 2px 2px 5px #999;
+	}
+	
+	#logo {position:fixed; top:0px; left:10px;}
+	
 	
 	</style>
 	
 	
 	
 	
-	
+<div>
 	<nav id="header">
 	
 	<div id="logo">
 		<a href="index.jsp" title="Volver a la index">
-		<img src="img/bici.jpg" alt="bici icono de la App Web"/>
+		<img id="logo_bike" src="img/bici.jpg" alt="bici icono de la App Web"/>
 		</a>
 	</div>
+	
 		
 
-	<ul class="nav">
+	<ul class="nav" >
+		
 		<li><a href="">B&aacute;sicos</a>
 			
 		
@@ -164,7 +175,23 @@
 						
 						<ul >
 							<li>
-								<a title="" href="ejemplos/css/posicionamiento/">por especificar</a>								
+								<a title="" href="ejemplos/css/posicionamiento/normal.jsp">Normal</a>								
+							</li>
+							
+							<li>
+								<a title="" href="ejemplos/css/posicionamiento/relativo.jsp">Relativo</a>								
+							</li>
+							
+							<li>
+								<a title="" href="ejemplos/css/posicionamiento/absoluto.jsp">Absoluto</a>								
+							</li>
+							
+							<li>
+								<a title="" href="ejemplos/css/posicionamiento/fijo.jsp">Fijo</a>								
+							</li>
+							
+							<li>
+								<a title="" href="ejemplos/css/posicionamiento/float.jsp">Float</a>								
 							</li>
 						</ul>
 					</li>
@@ -178,5 +205,5 @@
 	
 </nav>
 	
-	
+</div>	
 <br>

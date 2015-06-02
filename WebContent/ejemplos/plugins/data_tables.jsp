@@ -1,15 +1,4 @@
-<!doctype html>
 
-<html lang="es">
-
-<head>
-  <meta charset="utf-8">
-
-  <title>Data Tables</title>
-  <meta name="description" content="Data Tables">
-  <meta name="author" content="Mihai Androne">
-
-  <link rel="stylesheet" type="text/css" href="../../css/styles.css?v=1.0"></link>
   
   <link rel="stylesheet" type="text/css" href="../../js/DataTables-1.10.7/css/jquery.dataTables.min.css"> <!-- estilo plugin jquery -->
 
@@ -17,13 +6,10 @@
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
   
-  
-</head>  
-<body>
-<div id="container">
+ 
   
 	<jsp:include page="../../plantillas/head.jsp"></jsp:include>
-	<jsp:include page="../../plantillas/nav.jsp"></jsp:include>
+
   
 <div id="data_table"  >
 		<h1>dataTables</h1>
@@ -518,7 +504,7 @@
 	
 </div>
 
-</div>
+
 
 <!-- Los scripts de jquery -->
 
@@ -564,7 +550,4 @@
 <!-- Fin scripts de jquery -->
 
 
-<script type="text/javascript" src="../../js/main.js"></script>
-
-</body>
-</html>
+<jsp:include page="../../../plantillas/foot.jsp"></jsp:include>
