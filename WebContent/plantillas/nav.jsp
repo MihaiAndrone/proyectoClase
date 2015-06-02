@@ -1,44 +1,10 @@
-	<style>
 	
-		* {padding: 0px; 
-			margin: 0px;}
-
-	#header{margin:auto; width:500px; font-family: arial, helvetica, sans-serif; font-size: 25px; }
-	
-	ul, ol{list-style: none;}
-	
-	.nav li a{background-color: #214955; color:#FF6D22; text-decoration: none; padding:10px 15px; display:block;}
-	
-	.nav li a:hover {background-color: #218376;}
-	
-	.nav > li{float:left; }
-	
-	.nav li ul {display: none; position:absolute; min-width: 140px;}
-	
-	.nav li:hover > ul{display: block;}
-	
-	.nav li ul li {position: relative;}
-	
-	.nav li ul li ul {right: -140px; top: 0px;}
-	
-	.nav li ul li ul li a{padding-right:1px;}
-	
-	.nav {
-		
-		position:fixed; top:0px; left:55px; opacity:0.85;
-		box-shadow: 2px 2px 5px #999;
-	}
-	
-	#logo {position:fixed; top:0px; left:10px;}
-	
-	
-	</style>
 	
 	
 	
 	
 <div>
-	<nav id="header">
+	<nav>
 	
 	<div id="logo">
 		<a href="index.jsp" title="Volver a la index">
@@ -48,7 +14,7 @@
 	
 		
 
-	<ul class="nav" >
+	<ul  >
 		
 		<li><a href="">B&aacute;sicos</a>
 			
