@@ -247,12 +247,6 @@ mark{
 
 
 
-#lateral{
-	float:left;
-	position:;
-	display:block;
-}
-
 
 #container{
 	border-right: 1px solid grey;
@@ -458,15 +452,25 @@ select{
     width: 100%;
 }
 #sidebar {
-    position: fixed;
-  	top: 250px;
-    width: 20%;
-    font-size: 30px;
-    background-color:red;
+  position: fixed;
+  top: 30%;
+  width: 20%;
+  font-size: 30px;
+  background-color: red;
+  right: 0px;
 }
+
+#lateral{
+	float:right;
+	position:;
+	display:block;
+}
+
+
+
 #content {
     position: relative;
-    margin-left: 250px;
+  	 margin-right: 10%;
 }
 
 
