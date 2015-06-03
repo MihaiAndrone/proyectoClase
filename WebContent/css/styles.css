@@ -51,7 +51,7 @@ h1 {
 	color: green;
 	font-size: 50px;
 	font-family: arial;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
   
   
 }
@@ -84,7 +84,7 @@ body {
   	-moz-background-size: cover;
  	-o-background-size: cover;
   	background-size: cover;
-   
+   	padding-top: 90px;
 }
 
 
@@ -159,15 +159,7 @@ em{
 	display:floating;
 }
 */
-#logo img{
-	width: 45px;
-	height: 45px;
-}
 
-#logo_header img{
-	width: 35px;
-	height: 35px;
-}
 
 
 
@@ -237,7 +229,7 @@ table.tabla_azul, .tabla_azul tr {
 .numero{ 
 
 	color: #0099FF;
-	font-size: 150px;
+	font-size: 110px;
 	font-family: arial;
 }
 
@@ -255,7 +247,11 @@ mark{
 
 
 
-
+#lateral{
+	float:left;
+	position:;
+	display:block;
+}
 
 
 #container{
@@ -266,6 +262,7 @@ mark{
 	padding: 0 20px;
 	width: 900px;
 	clear:both;
+	position:relative;
 }
 
 .titulo{
@@ -333,6 +330,7 @@ mark{
 	
 ul.lista_peli{
 
+			
 			PADDING-RIGHT: 0px; 
 			PADDING-LEFT: 0px; 
 			FLOAT: left; 
@@ -344,13 +342,14 @@ ul.lista_peli{
 } 
 
 ul.lista_peli li {
-			PADDING-RIGHT: 2px; 
-			DISPLAY: inline; 
-			PADDING-LEFT: 2px; 
-			FLOAT: left; 
-			PADDING-BOTTOM: 2px; 
-			WIDTH: 30%; 
-			PADDING-TOP: 2px 
+			position: relative;
+		  	PADDING-RIGHT: 2px;
+		  	DISPLAY: table;
+		 	PADDING-LEFT: 20px;
+		  	FLOAT: left;
+		  	PADDING-BOTTOM: 2px;
+		  	WIDTH: 30%;
+		  	PADDING-TOP: 8px;
 }
 
 
@@ -400,4 +399,74 @@ select{
 
 	
 }
+
+
+
+
+/***************************
+***Estilos Menu Navegacion**
+**************************/
+
+	#header{top:0px; position:fixed; margin:auto; width:100%; font-family: arial, helvetica, sans-serif; font-size: 25px; z-index:100;}
+	
+	ul, ol{list-style: none;}
+	
+	.nav li a, h3, h2{background-color: #214955; color:#FF6D22; text-decoration: none; padding:10px 15px; display:block;}
+	
+	.nav li  a:hover, h2:hover, h3:hover{background-color: #218376;}
+	
+	.nav > li{float:left; overflow:hidden;}
+	
+	.nav li ul {display: none; position:absolute; min-width: 240px;}
+	
+	.nav li:hover > ul{display: block;}
+	
+	.nav li ul li {position: relative;}
+		
+	.nav li ul li ul {right: -240px; top: 0px;}
+	
+	.nav {
+		
+		float:left; top:55px; left:70px; opacity:0.85;
+		box-shadow: 2px 2px 5px #999; z-index: 100;
+	}
+	
+	
+	
+	#logo_header {float:left; background-color: white; width:100%;}
+	
+	#menu_navegacion{background-color: white;  z-index:100; top:0px;}
+	
+	#logo_bike {
+	width: 60px;
+	height: 50px;
+	float:left;
+}
+	
+	.clearfix:before, .clearfix:after { content: ""; display: table; }
+	.clearfix:after { clear: both; }
+	.clearfix { *zoom: 1; }
+/***********
+** Fin Menu**
+***********/
+
+
+
+
+#contenedor {
+    position: relative;
+    width: 100%;
+}
+#sidebar {
+    position: fixed;
+  	top: 250px;
+    width: 20%;
+    font-size: 30px;
+    background-color:red;
+}
+#content {
+    position: relative;
+    margin-left: 250px;
+}
+
 

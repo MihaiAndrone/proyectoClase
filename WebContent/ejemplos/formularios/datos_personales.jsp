@@ -1,5 +1,5 @@
 <jsp:include page="../../plantillas/head.jsp"></jsp:include>
-<jsp:include page="../../plantillas/nav.jsp"></jsp:include>
+
 
 
 <h1>Ejemplos De Formularios</h1>
@@ -78,27 +78,28 @@
 <fieldset id="conocimientos">
 	<legend>Conocimientos</legend>
 	
-	<input type="checkbox" name="conocimientos" checked="checked" value="html"/>
 	<label for="html">HTML</label>
+	<input type="checkbox" name="conocimientos" checked="checked" value="html"/>
+	
 <br/>
-
+<label for="js">JS</label>
 	<input type="checkbox" name="conocimientos" value="js"/>
-	<label for="js">JS</label>
+	
 	
 <br/>
-
-	<input type="checkbox" name="conocimientos" checked="checked" value="css"/>
 	<label for="css">CSS</label>
+	<input type="checkbox" name="conocimientos" checked="checked" value="css"/>
+	
 
 <br>
-	
-	<input type="checkbox" name="conocimientos" value="jquery"/>
 	<label for="jquery">JQUERY</label>
+	<input type="checkbox" name="conocimientos" value="jquery"/>
+	
 	
 <br>
-
-	<input type="checkbox" name="conocimientos" value="java"/>
 	<label for="java">JAVA</label>
+	<input type="checkbox" name="conocimientos" value="java"/>
+	
 	
 </fieldset>	
 
@@ -133,7 +134,7 @@
 
 <fieldset id="musica">
 	<legend>Grupos de Musica</legend>
-	<select name="musica" id="musica">
+	<select name="musica" id="music">
 		<optgroup label="Rock">
 			<option value="grupo1">Grupo 1</option>
 			<option value="grupo2">Grupo 2</option>

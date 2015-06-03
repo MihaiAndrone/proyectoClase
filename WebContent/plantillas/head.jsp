@@ -41,12 +41,6 @@
 
 <br>
 
-<header>
-	
-	<div id="logo_header">
-	
-	<h1>Ejemplos HTML5, CSS, JAVASCRIPT</h1>
-	</div>
-</header>		
+
 
 

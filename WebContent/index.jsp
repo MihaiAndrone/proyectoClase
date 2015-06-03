@@ -3,7 +3,7 @@
 
 
 <!-- Para poner comentarios -->
-
+<div id="content">
 
 <br>
 <hr>
@@ -22,13 +22,7 @@
 		<footer>
 			<a href="https://vimeo.com/15859300">Ir a enlace externo</a>
 		</footer>
-  	
-<hr>
-
-   <iframe id="widget_iframe" width="250" height="250" 
-   			src="https://www.surfsearchspot.com/widget/?id_spot=394&class=w-250" 
-   			frameborder="0" allowfullscreen scrolling="no">
-   	</iframe>
+  	 
  
  <hr>  
    
@@ -104,11 +98,13 @@
 </article>
 </section>
 
-
+</div>
 
 <!-- sidebar con contenido no principal de la pagina(externo) -->
-<aside>
-	<ul>
+<div id="sidebar">
+<aside id="lateral">
+	<ul class="clearfix">
+		
 		<li><a href="http://www.ipartek.formacion.com/campus/" target="_blank">Campus Ipartek</a></li>
 		<li><a href="http://www.caniuse.com" target="_blank">Can i use</a></li>
 		<li><a href="http://www.github.com" target="_blank">GitHub</a></li>
@@ -118,8 +114,15 @@
 		
 		
 	</ul>
-</aside>
+	
 
+	
+	<iframe id="widget_iframe" width="250" height="250" 
+   			src="https://www.surfsearchspot.com/widget/?id_spot=394&class=w-250" 
+   			frameborder="0" allowfullscreen scrolling="no">
+   	</iframe>
+</aside>
+</div>
 
 
 
