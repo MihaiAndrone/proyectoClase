@@ -1,26 +1,29 @@
+<hr>
 
-<footer>
+
+
+<footer id="plantilla_foot" >
 	<ul>
-		<li>
-			<p>&copy;Mihai Androne</p>
+		<li class="fa fa-copyright">
+			<p>Mihai Androne</p>
 		</li>
 		<li>
-			<a href="">Contacto</a>
+			<span>Contacto</span>
 		</li>
-		<li>
+		<li class="fa fa-gavel fa-lg">
 			<a href="">Aviso Legal</a>
 		</li>
-		<li>
-			<a href="http://www.facebook.com"><img class="logos_footer" src="img/logo_facebook.png" alt="facebook"/>Facebook</a>
+		<li class="fa fa-facebook-official fa-2g">
+			<a href="http://www.facebook.com" >Facebook</a>
 		</li>
-		<li>
-			<a href="http://www.twitter.com"><img class="logos_footer" src="img/logo_twitter.png" alt="twitter"/>Twitter</a>
+		<li class="fa fa-twitter fa-3g" >
+			<a href="http://www.twitter.com" >Twitter</a>
 		</li>
-		<li>
-			<a href="http://www.youtube.com"><img class="logos_footer" src="img/logo_youtube.png" alt="youtube"/>Youtube</a>
+		<li class="fa fa-youtube-square fa-4g">
+			<a href="http://www.youtube.com"  >Youtube</a>
 		</li>
-		<li>
-			<a href="http://www.instagram.com"><img class="logos_footer" src="img/logo_instagram.png" alt="instagram"/>Instagram</a>
+		<li class="fa fa-instagram">
+			<a href="http://www.instagram.com" >Instagram</a>
 		</li>
 	</ul>
 </footer>

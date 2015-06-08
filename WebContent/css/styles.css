@@ -1,116 +1,95 @@
-
-
 /*  
 
 	version:	1.0
 	author:		Mihai Androne
 	date:		18052015
-*/	
-
+*/
 
 /* ESTILOS GENERALES PARA TODAS LAS PAGINAS */
 
 
 
-
-footer {
-	border:1px solid grey;
-	margin: 5px;
-	padding: 5px;
-}
+footer{border:1px solid grey;}
 
 .logos_footer {
 	width: 15px;
-	
 }
 
-
 /*Si el valor que el usuario escribe es valido, obtendra un color verde*/
-form input[type="text"]:required:valid{
- border:4px solid #206B64;
- /* otras propiedades */
+form input[type="text"]:required:valid {
+	border: 4px solid #206B64;
+	/* otras propiedades */
 }
 
 /*caso contrario, el color sera rojo*/
-form input[type="text"]:focus:required:invalid{
- border:4px solid #D09F38;
- /* otras propiedades */
+form input[type="text"]:focus:required:invalid {
+	border: 4px solid #D09F38;
+	/* otras propiedades */
 }
 
-
-
-
-.formularios ul, li{
-	list-style-type:none;
-	
+.formularios ul, li {
+	list-style-type: none;
 }
 
 h1 {
-	
 	text-align: center;
 	color: green;
 	font-size: 50px;
 	font-family: arial;
 	margin-bottom: 0px;
-  
-  
 }
-p{
+
+p {
 	font-family: arial;
 	font-size: 16px;
 	text-align: justify;
 	line-height: 20px;
-
-}
-.btn_volver{
-	background-color:#DDDDDD;
 }
 
-a:hover{
+.btn_volver {
+	background-color: #DDDDDD;
+}
+
+a:hover {
 	color: orange;
 }
 
-a{
-	text-decoration:none;
+a {
+	text-decoration: none;
 }
 
-
+/*
+a:hover:after { content: " (" attr(href) ") "; }
+*/
 body {
-	
-	font-family:arial;
+	font-family: arial;
 	background: url("../img/background-3.jpg") no-repeat center center fixed;
 	background-color: white;
-    -webkit-background-size: cover;
-  	-moz-background-size: cover;
- 	-o-background-size: cover;
-  	background-size: cover;
-   	padding-top: 90px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 90px;
 }
 
-
-
-
-
 table.tabla_azul, .tabla_azul tr {
-    border: 2px solid black;
+	border: 2px solid black;
 	border-collapse: collapse;
 	background-color: white;
 	text-align: center;
 	margin: 0 auto;
 	padding: 0 20px;
 	width: 900px;
-	
 }
 
-.tabla_azul td, .tabla_azul th{
+.tabla_azul td, .tabla_azul th {
 	border: 2px solid black;
 	border-collapse: collapse;
 	background-color: white;
 	text-align: center;
 	color: #0099FF;
-	font-size:20px;
-	font-family:arial;
-	
+	font-size: 20px;
+	font-family: arial;
 }
 
 /*
@@ -134,132 +113,93 @@ li{
 }
 
 */
-
 strong {
-	
 	font-weight: bold;
 }
 
-
-em{
-	
+em {
 	font-family: italica;
 	font-size: 40px;
 }
 
-
-
-
 /* ESTILOS REUTILIZABLES PARA TODAS LAS PAGINAS */
-
-
 
 /*NAV*/
 /*#menu_navegacion li{
 	display:floating;
 }
 */
-
-
-
-
 table.tabla_azul, .tabla_azul tr {
-    border: 2px solid black;
+	border: 2px solid black;
 	border-collapse: collapse;
 	background-color: white;
 	text-align: center;
 	margin: 0 auto;
 	padding: 0 20px;
 	width: 900px;
-	
 }
 
-.tabla_azul td, .tabla_azul th{
+.tabla_azul td, .tabla_azul th {
 	border: 2px solid black;
 	border-collapse: collapse;
 	background-color: white;
 	text-align: center;
 	color: #0099FF;
-	font-size:20px;
-	font-family:arial;
-	
+	font-size: 20px;
+	font-family: arial;
 }
-
-
-
-
-
-
-
 
 /* Regla con selector por ETIQUETA, ELEMENTO O TAG */
 
-
 /* Regla con selector por ID #nombre*/
-
-
-#bici1{
-	
+#bici1 {
 	margin-right: 30px;
 	width: 270px;
 	height: auto;
 	width: 350px;
 	height: 260px;
-
 }
 
-
 #bici2 {
-	
 	margin-right: 30px;
 	width: 270px;
 	height: auto;
 	width: 360px;
 	height: 259px;
-
 }
-
 
 #encabezado {
 	border: 1px dotted green;
-
 }
 
 /* Regla con selector por CLASS .nombre */
-.numero{ 
-
+.numero {
 	color: #0099FF;
 	font-size: 110px;
 	font-family: arial;
 }
 
 /* Regla con selector por ETIQUETA, ELEMENTO O TAG */
-mark{
+mark {
 	background-color: yellow;
-
 }
-
-
 
 .verde {
 	color: green;
 }
 
-
-
-
-#container{
+#container {
 	border-right: 1px solid grey;
 	border-left: 1px solid grey;
-	background-color:#FFF;
+	background-color: #FFF;
 	margin: 0 auto;
 	padding: 0 20px;
 	width: 900px;
-	clear:both;
-	position:relative;
+	clear: both;
+	position: relative;
 }
 
-.titulo{
+.titulo {
 	background-color: blue;
 	border: solid black;
 	color: yellow;
@@ -267,118 +207,93 @@ mark{
 	margin-bottom: 20px;
 }
 
-#ficha{
+#ficha {
 	float: left;
 	width: 600px;
 	min-height: 170px;
-	margin-bottom: 20px;	
+	margin-bottom: 20px;
 }
 
-#ficha p{
+#ficha p {
 	font-size: 35px;
 	line-height: 43px;
 }
 
-
-#ficha .destacado{
+#ficha .destacado {
 	color: green;
-	font-weight: bold;	
-
+	font-weight: bold;
 }
 
-
-.cartel{
-
+.cartel {
 	float: left;
 	margin-right: 30px;
 	width: 270px;
 	height: auto;
 }
 
-#sinopsis{
+#sinopsis {
 	float: left;
 	height: 200px;
 	overflow: scroll;
-	
-
 }
 
-
-
-
-
-
-.imagen_cartelera{
-	width: 225px; 
+.imagen_cartelera {
+	width: 225px;
 	height: 330px;
 }
 
-
-
-#cartelera_cine{
-	
+#cartelera_cine {
 	background-color: white;
-	
 }
 
-	
-ul.lista_peli{
-
-			
-			PADDING-RIGHT: 0px; 
-			PADDING-LEFT: 0px; 
-			FLOAT: left; 
-			PADDING-BOTTOM: 0px; 
-			MARGIN: 15px 0px; 
-			WIDTH: 100%; 
-			PADDING-TOP: 0px; 
-			LIST-STYLE-TYPE: none 
-} 
+ul.lista_peli {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	FLOAT: left;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 15px 0px;
+	WIDTH: 100%;
+	PADDING-TOP: 0px;
+	LIST-STYLE-TYPE: none
+}
 
 ul.lista_peli li {
-			position: relative;
-		  	PADDING-RIGHT: 2px;
-		  	DISPLAY: table;
-		 	PADDING-LEFT: 20px;
-		  	FLOAT: left;
-		  	PADDING-BOTTOM: 2px;
-		  	WIDTH: 30%;
-		  	PADDING-TOP: 8px;
+	position: relative;
+	PADDING-RIGHT: 2px;
+	DISPLAY: table;
+	PADDING-LEFT: 20px;
+	FLOAT: left;
+	PADDING-BOTTOM: 2px;
+	WIDTH: 30%;
+	PADDING-TOP: 8px;
 }
 
-
-#cartelera_peliculas li h3{
+#cartelera_peliculas li h3 {
 	color: #0076EC;
 	font-family: "dinengschriftstd", "Another Font", generic;
 	font-size: 20px;
 	font-weight: 100;
 }
 
-#cartelera_peliculas li h3:hover{
+#cartelera_peliculas li h3:hover {
 	color: orange;
 }
 
-#cartelera_peliculas ul{
+#cartelera_peliculas ul {
 	list-style: none;
 }
 
-
-.cuadros{
-	width:300px;
-
-	
+.cuadros {
+	width: 300px;
 }
 
-
-
-article{
+article {
 	border: 1px solid blue;
 	padding: 20px;
 	margin-bottom: 25 px;
 }
 
-
-article h2{
+article h2 {
 	background-color: #39C0A0;
 	padding: 20px;
 	color: ##697951;
@@ -386,91 +301,177 @@ article h2{
 	margin-bottom: 25px;
 }
 
-
-select{
-
-	width:150px;
-
-	
+select {
+	width: 150px;
 }
 
+#btn_ganador {
+	background: #3498db;
+	background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+	background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+	background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+	background-image: -o-linear-gradient(top, #3498db, #2980b9);
+	background-image: linear-gradient(to bottom, #3498db, #2980b9);
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	text-shadow: 5px 0px 4px #666666;
+	-webkit-box-shadow: 6px 4px 8px #666666;
+	-moz-box-shadow: 6px 4px 8px #666666;
+	box-shadow: 6px 4px 8px #666666;
+	font-family: Georgia;
+	color: #ffffff;
+	font-size: 25px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	margin: 15px 20px;
+}
 
-
+#btn_ganador:hover {
+	background: #3cb0fd;
+	background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+	text-decoration: none;
+}
 
 /***************************
 ***Estilos Menu Navegacion**
 **************************/
+#header {
+	top: 0px;
+	position: fixed;
+	margin: auto;
+	width: 100%;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 25px;
+	z-index: 100;
+}
 
-	#header{top:0px; position:fixed; margin:auto; width:100%; font-family: arial, helvetica, sans-serif; font-size: 25px; z-index:100;}
-	
-	ul, ol{list-style: none;}
-	
-	.nav li a, h3, h2{background-color: #214955; color:#FF6D22; text-decoration: none; padding:10px 15px; display:block;}
-	
-	.nav li  a:hover, h2:hover, h3:hover{background-color: #218376;}
-	
-	.nav > li{float:left; overflow:hidden;}
-	
-	.nav li ul {display: none; position:absolute; min-width: 240px;}
-	
-	.nav li:hover > ul{display: block;}
-	
-	.nav li ul li {position: relative;}
-		
-	.nav li ul li ul {right: -240px; top: 0px;}
-	
-	.nav {
-		
-		float:left; top:55px; left:70px; opacity:0.85;
-		box-shadow: 2px 2px 5px #999; z-index: 100;
-	}
-	
-	
-	
-	#logo_header {float:left; background-color: white; width:100%;}
-	
-	#menu_navegacion{background-color: white;  z-index:100; top:0px;}
-	
-	#logo_bike {
+ul, ol {
+	list-style: none;
+}
+
+.nav li a, h3, h2 {
+	background-color: #214955;
+	color: #FF6D22;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+}
+
+.nav li  a:hover, h2:hover, h3:hover {
+	background-color: #218376;
+}
+
+.nav>li {
+	float: left;
+	overflow: hidden;
+}
+
+.nav li ul {
+	display: none;
+	position: absolute;
+	min-width: 240px;
+}
+
+.nav li:hover>ul {
+	display: block;
+}
+
+.nav li ul li {
+	position: relative;
+}
+
+.nav li ul li ul {
+	right: -240px;
+	top: 0px;
+}
+
+.nav {
+	float: left;
+	top: 55px;
+	left: 70px;
+	opacity: 0.85;
+	box-shadow: 2px 2px 5px #999;
+	z-index: 100;
+}
+
+#logo_header {
+	float: left;
+	background-color: white;
+	width: 100%;
+}
+
+#menu_navegacion {
+	background-color: white;
+	z-index: 100;
+	top: 0px;
+}
+
+#logo_bike {
 	width: 60px;
 	height: 50px;
-	float:left;
+	float: left;
 }
-	
-	.clearfix:before, .clearfix:after { content: ""; display: table; }
-	.clearfix:after { clear: both; }
-	.clearfix { *zoom: 1; }
+
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;
+}
 /***********
 ** Fin Menu**
 ***********/
 
+/************
+	Side Bar
+*************/
+#sidebar a {
+	color: #173444;
+}
 
-
+#sidebar h3 {
+	color: grey;
+	font-size: 20px;
+}
 
 #contenedor {
-    position: relative;
-    width: 100%;
+	position: relative;
+	width: 59%;
 }
+
 #sidebar {
-  position: fixed;
-  top: 30%;
-  width: 20%;
-  font-size: 30px;
-  background-color: red;
-  right: 0px;
+	position: fixed;
+	top: 50px;
+	width: 20%;
+	height: 100%;
+	font-size: 30px;
+	background-color: #FF6D22;
+	right: 0px;
 }
 
-#lateral{
-	float:right;
+#lateral {
+	float: right;
 	position:;
-	display:block;
+	display: block;
 }
-
-
 
 #content {
-    position: relative;
-  	 margin-right: 10%;
+	position: relative;
+	margin-right: 10%;
 }
 
+/*********
+	SPRITE
+************/
 

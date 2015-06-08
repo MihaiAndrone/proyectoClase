@@ -13,12 +13,14 @@
   <meta name="author" content="Mihai Androne">
 
   
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-<link rel="icon" href="favicon.ico" type="image/x-icon">
+  	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
   
   
-   <link rel="stylesheet" type="text/css" href="css/reset.css?v=1.0">
-  <link rel="stylesheet" type="text/css" href="css/styles.css?v=1.0">
+	<link rel="stylesheet" type="text/css" href="css/reset.css?v=1.0">
+  	<link rel="stylesheet" type="text/css" href="css/styles.css?v=1.0">
+  	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.css">
+
   
    
 </head>

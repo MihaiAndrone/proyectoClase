@@ -106,6 +106,19 @@
 							</li>
 						</ul>
 					</li>
+					
+					<li><h3>Tecnicas Avanzadas</h3>
+						
+						<ul >
+							<li>
+								<a title="" href="ejemplos/css/tecnicas_avanzadas/sprite.jsp">Sprite</a>								
+							</li>
+							
+							<li>
+								<a title="" href="ejemplos/css/tecnicas_avanzadas/fontawesome.jsp">Font Awesome</a>								
+							</li>
+						</ul>
+					</li>
 				</ul>
 		</li>
 		
