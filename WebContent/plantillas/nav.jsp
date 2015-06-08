@@ -122,6 +122,18 @@
 				</ul>
 		</li>
 		
+		<li><h2>Javascript</h2>
+			
+		
+			<ul >
+				<li>
+				<a title="Variables"
+				href="ejemplos/javascript/variables.jsp">Variables</a>
+				</li>
+		
+			</ul>
+		</li>
+		
 		<li><h2>Reales</h2>
 			
 		
