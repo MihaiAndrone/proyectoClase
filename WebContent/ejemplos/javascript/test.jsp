@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Test para utilidades.js</title>
+  <title>Test para Utilidades.js</title>
   <link rel="stylesheet" href="//code.jquery.com/qunit/qunit-1.18.0.css">
 </head>
 <body>
