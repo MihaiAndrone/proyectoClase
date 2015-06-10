@@ -147,7 +147,7 @@
 				</li>
 				
 				<li>
-				<a title="test"
+				<a target="_blank" title="test"
 				href="ejemplos/javascript/test.jsp">Test</a>
 				</li>
 		
