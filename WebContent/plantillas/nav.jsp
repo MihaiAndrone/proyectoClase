@@ -1,11 +1,3 @@
-
-  <link rel="stylesheet" type="text/css" href="css/reset.css?v=1.0">
-  <link rel="stylesheet" type="text/css" href="css/styles.css?v=1.0">
-  
-
-	
-
-	
 <div>
 	<nav>
 	
