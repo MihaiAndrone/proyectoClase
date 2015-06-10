@@ -130,6 +130,21 @@
 				<a title="Variables"
 				href="ejemplos/javascript/variables.jsp">Variables</a>
 				</li>
+				
+				<li>
+				<a title="Elseif"
+				href="ejemplos/javascript/elseif.jsp">Else-If</a>
+				</li>
+				
+				<li>
+				<a title="Calculadora"
+				href="ejemplos/javascript/calculadora.jsp">Calculadora</a>
+				</li>
+				
+				<li>
+				<a title="test"
+				href="ejemplos/javascript/test.jsp">Test</a>
+				</li>
 		
 			</ul>
 		</li>
@@ -138,10 +153,7 @@
 			
 		
 			<ul >
-				<li>
-				<a title="Detalles Cartelera Cine"
-				href="ejemplos/reales/cartelera_detalle.jsp">Detalles Cartelera Cine</a>
-				</li>
+	
 		
 				<li>
 				<a title="Cartelera"
