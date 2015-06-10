@@ -1,7 +1,7 @@
 
 	<jsp:include page="../../plantillas/head.jsp"></jsp:include>
   
-  <jsp:include page="../../plantillas/nav.jsp"></jsp:include>
+
   
   
   <h2 id="eje1">Ejemplo Etiquetas de Linea y Bloque</h2>

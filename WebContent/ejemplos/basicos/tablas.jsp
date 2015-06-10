@@ -1,6 +1,5 @@
 <jsp:include page="../../plantillas/head.jsp"></jsp:include>
-<jsp:include page="../../plantillas/nav.jsp"></jsp:include>
-  
+
   
   <div id="tablas_basicas" class="tabla_azul" >
 		
