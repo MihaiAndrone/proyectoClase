@@ -13,6 +13,38 @@
  <script src="../../js/utilidades.js"></script>
  
   <script>
+  
+  
+  QUnit.test( "Funciones predefinidas", function( assert ) {
+  	
+	  assert.ok(escape('Hola Mundo') == 'Hola%20Mundo' , "'Hola Mundo' escapado");
+	  assert.ok(escape('Hóla Mundo') == 'H%F3la%20Mundo' , "'Hóla Mundo' escapado");
+	  
+	   assert.ok(escape (10 + "1" ) == "101" , "Sin parseInt 10+ \"1\" = 101" );
+	   assert.ok(escape (10 + parseInt("1") ) == 11 , "Con parseInt 10+ \"1\" = 11" );
+	   
+	   assert.ok( isNaN("123abc") , "123abc no es numero" );
+	   assert.ok( !isNaN("123") , "123 es numero" );
+	   
+	   
+	   var johnwayne = new Array("John", "Wayne", 45);
+	   
+	  assert.ok ( johnwayne[0] == "John", "posicion 0 esta 'John'");
+	  assert.ok ( johnwayne[1] == "Wayne", "posicion 1 esta 'Wayne'");
+	  assert.ok ( johnwayne[2] == 45, "posicion 2 esta 45");
+	  assert.ok ( johnwayne.length == 3, "Longitud del Array == 3");
+	  
+	  var concatenar = new Array("el bueno el feo y el malo", 1973, "niputaidea");
+	  var johnconcatenado = johnwayne.concat(concatenar);
+	  
+	  assert.ok ( johnwayne[4] == "el bueno el feo y el malo" , "posicion 4 esta 'el bueno el feo y el malo'");
+	  assert.ok ( johnwayne[5] == 1973, "posicion 5 esta 1973");
+	  assert.ok ( johnwayne[6] == "niputaidea", "posicion 6 esta 'niputaidea'");
+  });
+  
+  
+  
+  
   //nuestro codigo de testeo
   QUnit.test( "entradas(dia,edad)", function( assert ) {
 	  assert.ok( entradas('lunes',34)		==2, "lunes <35 años = 2 €" );
