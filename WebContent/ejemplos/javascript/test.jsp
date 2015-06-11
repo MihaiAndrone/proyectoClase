@@ -34,12 +34,23 @@
 	  assert.ok ( johnwayne[2] == 45, "posicion 2 esta 45");
 	  assert.ok ( johnwayne.length == 3, "Longitud del Array == 3");
 	  
-	  var concatenar = new Array("el bueno el feo y el malo", 1973, "niputaidea");
-	  var johnconcatenado = johnwayne.concat(concatenar);
+	  var otrojohnwayne = new Array("el bueno el feo y el malo", 1973, "niputaidea");
 	  
-	  assert.ok ( johnwayne[4] == "el bueno el feo y el malo" , "posicion 4 esta 'el bueno el feo y el malo'");
-	  assert.ok ( johnwayne[5] == 1973, "posicion 5 esta 1973");
-	  assert.ok ( johnwayne[6] == "niputaidea", "posicion 6 esta 'niputaidea'");
+	  
+	  assert.ok ( johnwayne.concat(otrojohnwayne)[3] == "el bueno el feo y el malo" , "posicion 4 esta 'el bueno el feo y el malo'");
+	  assert.ok ( johnwayne.concat(otrojohnwayne)[4] == 1973, "posicion 5 esta 1973");
+	  assert.ok ( johnwayne.concat(otrojohnwayne)[5] == "niputaidea", "posicion 6 esta 'niputaidea'");
+	  
+	  var numeros = new Array (-5, 5, 3, 1, 0);
+	  
+	  numeros.sort();
+	  assert.ok ( numeros[0] == -5 , 'numeros ordenados de menor a mayor')
+	  assert.ok ( numeros[1] == 0 , 'numeros ordenados de menor a mayor')
+	  assert.ok ( numeros[2] == 1 , 'numeros ordenados de menor a mayor')
+	  assert.ok ( numeros[3] == 3 , 'numeros ordenados de menor a mayor')
+	  assert.ok ( numeros[4] == 5 , 'numeros ordenados de menor a mayor')
+
+	  
   });
   
   

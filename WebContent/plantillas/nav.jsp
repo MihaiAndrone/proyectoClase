@@ -131,6 +131,15 @@
 			
 		
 			<ul >
+				<li><h2>Basicos</h2>
+					<ul>
+						<li>
+							<a title="objetos basicos" href="ejemplos/javascript/basicos/objetos_basicos.jsp">Objetos Basicos</a>
+						</li>
+					</ul>
+				</li>
+			
+			
 				<li>
 				<a title="Variables"
 				href="ejemplos/javascript/variables.jsp">Variables</a>

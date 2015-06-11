@@ -9,6 +9,17 @@
 
 
 
+.cnt_article h2{
+	color:blue;
+	border-bottom:1px solid blue;
+	margin-bottom:25px;
+}
+
+.cnt_article ul{
+	list-style:none;
+	margin-left:25px;
+}
+
 footer{border:1px solid grey;}
 
 .logos_footer {
@@ -292,6 +303,7 @@ article {
 	padding: 20px;
 	margin-bottom: 25 px;
 }
+
 
 article h2 {
 	background-color: #39C0A0;
